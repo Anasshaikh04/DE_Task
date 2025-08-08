@@ -92,3 +92,8 @@ opensearch-py – to communicate with the OpenSearch backend
 Result:
 
 ![alt text](7.png)
+
+
+step 5 : Version control of Git 
+
+![alt text](9.png)
