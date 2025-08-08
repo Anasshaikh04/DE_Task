@@ -1,0 +1,14 @@
+# Insert S101
+curl -k -u admin:Opensearch#2025 -X POST "https://localhost:9200/student_records/_doc/S101" \
+-H "Content-Type: application/json" \
+-d '{"student_id":"S101","name":"Amit Sharma","age":21,"course":"Python","score":88.5}'
+
+# Insert S102
+curl -k -u admin:Opensearch#2025 -X POST "https://localhost:9200/student_records/_doc/S102" \
+-H "Content-Type: application/json" \
+-d '{"student_id":"S102","name":"Neha Verma","age":22,"course":"Flask","score":91.2}'
+
+# Insert S103
+curl -k -u admin:Opensearch#2025 -X POST "https://localhost:9200/student_records/_doc/S103" \
+-H "Content-Type: application/json" \
+-d '{"student_id":"S103","name":"Rahul Mehta","age":20,"course":"Machine Learning","score":84.7}'
